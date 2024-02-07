@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #322f2f;
+}
+
+header {
+
+    color: rgb(238, 230, 230);
+    text-align: left;
+    padding: 1em;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: justify;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+footer {
+
+    color: rgb(243, 237, 237);
+    text-align: center;
+    padding: 1em;
+}
+
+/* Add some hover effect for footer */
+footer:hover {
+    background-color: #615f5f;
+}
